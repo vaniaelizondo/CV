@@ -1,14 +1,19 @@
 import React from 'react';
 import './styles/App.css';
-import { Button, Icon } from 'semantic-ui-react'
+import { data } from './data/data';
+import Header from './components/Header';
 
 function App() {
+  const info = data[0]
   return (
     <div>
-      Vania
-      <i class="fas fa-phone-square-alt"></i>
-      <Button>Click Here</Button>
-      <Icon name='mail' />
+      <Header 
+        name={info.name}
+        title={info.title}
+        email={info.email}
+        cel={info.cel}
+        linkedin={info.linkedin}
+      />
     </div>
   );
 }
