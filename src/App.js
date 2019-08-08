@@ -14,6 +14,8 @@ function App() {
         cel={info.cel}
         linkedin={info.linkedin}
       />
+      Educación
+      Experiencia
     </div>
   );
 }
