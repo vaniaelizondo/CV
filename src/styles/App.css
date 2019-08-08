@@ -4,51 +4,63 @@ body {
 }
 
 .header-block {
-	background: #952092;
-	overflow: auto;
-	/*position: fixed;
-	top: 0;
-	width: 100%;*/
+  background: #952092;
 }
 
 .grid-bar {
-	margin: 0 !important;
+  margin: 0 !important;
 }
 
 h1 {
   font-family: "BebasNeueRegular";
-	color: white;
-	font-size: 3rem;
-	font-weight: normal;
-	line-height: 1;
-	padding: 1rem 0 0 0;
+  color: white;
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 1;
 }
 
 h2 {
   font-family: "BebasNeueRegular";
-	color: white;
-	font-weight: normal;
-	line-height: 1;
-	padding: 0 0 1rem 0;
-	font-size: 2rem;
+  color: white;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 2rem;
+}
+
+ul.title {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+li.title {
+  box-sizing: border-box;
+}
+
+ul.icons {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+li.icons {
+  box-sizing: border-box;
 }
 
 .icons {
   width: 2rem;
   height: auto;
-	float: right;
-}
-
-.icons-middle {
-  margin: 2rem 0;
-  width: 2rem;
-  height: auto;
-  float: right;
 }
 
 .image-profile {
-	float: left;
-  width: 13rem;
+  float: left;
+  width: 11rem;
   height: auto;
-	margin: 5px 0;
+  margin: 5px;
 }
