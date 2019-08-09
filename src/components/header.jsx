@@ -4,6 +4,7 @@ import email_icon from "../images/email_white.svg";
 import phone_icon from "../images/phone_white.svg";
 import linkedin_icon from "../images/linkedin_white.svg";
 import download_icon from "../images/download_white.svg";
+import CV from "../data/VAEM.pdf";
 import { Grid, Container } from "semantic-ui-react";
 
 const Header = ({ name, title, email, cel, linkedin }) => {
@@ -38,12 +39,14 @@ const Header = ({ name, title, email, cel, linkedin }) => {
                 </a>
               </li>
               <li className="icons" >
-                <a href={`${linkedin}`} target="_blank" rel="noopener noreferrer" >
+                <a href={linkedin} target="_blank" rel="noopener noreferrer" >
                   <img src={linkedin_icon} className="icons" title={`${linkedin}`} alt='Linkedin Icon' />
                 </a>
               </li>
               <li className="icons" >
-                <img src={download_icon} className="icons" alt='Download Icon' title='Download PDF' />
+                <a href={CV} target='_blank'>
+                  <img src={download_icon} className="icons" alt='Download Icon' title='Download CV in PDF' />
+                </a>
               </li>
             </ul>
           </Grid.Column>
