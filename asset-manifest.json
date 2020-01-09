@@ -1,15 +1,28 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.4beaa550.chunk.css",
-    "main.js": "/CV/static/js/main.3bac96d9.chunk.js",
-    "main.js.map": "/CV/static/js/main.3bac96d9.chunk.js.map",
-    "runtime~main.js": "/CV/static/js/runtime~main.50de0404.js",
-    "runtime~main.js.map": "/CV/static/js/runtime~main.50de0404.js.map",
-    "static/js/2.522085d3.chunk.js": "/CV/static/js/2.522085d3.chunk.js",
-    "static/js/2.522085d3.chunk.js.map": "/CV/static/js/2.522085d3.chunk.js.map",
+    "main.css": "/CV/static/css/main.3a099460.chunk.css",
+    "main.js": "/CV/static/js/main.e4e7082d.chunk.js",
+    "main.js.map": "/CV/static/js/main.e4e7082d.chunk.js.map",
+    "runtime-main.js": "/CV/static/js/runtime-main.2622315c.js",
+    "runtime-main.js.map": "/CV/static/js/runtime-main.2622315c.js.map",
+    "static/js/2.50e3d985.chunk.js": "/CV/static/js/2.50e3d985.chunk.js",
+    "static/js/2.50e3d985.chunk.js.map": "/CV/static/js/2.50e3d985.chunk.js.map",
     "index.html": "/CV/index.html",
-    "precache-manifest.abf177565076329198399f4d3a6cac49.js": "/CV/precache-manifest.abf177565076329198399f4d3a6cac49.js",
+    "precache-manifest.2fcb118483b04aec80d1bae8bc0ea0e3.js": "/CV/precache-manifest.2fcb118483b04aec80d1bae8bc0ea0e3.js",
     "service-worker.js": "/CV/service-worker.js",
-    "static/css/main.4beaa550.chunk.css.map": "/CV/static/css/main.4beaa550.chunk.css.map"
-  }
+    "static/css/main.3a099460.chunk.css.map": "/CV/static/css/main.3a099460.chunk.css.map",
+    "static/js/2.50e3d985.chunk.js.LICENSE": "/CV/static/js/2.50e3d985.chunk.js.LICENSE",
+    "static/media/VAEM.pdf": "/CV/static/media/VAEM.f155d2bc.pdf",
+    "static/media/download_white.svg": "/CV/static/media/download_white.ddc49fee.svg",
+    "static/media/email_white.svg": "/CV/static/media/email_white.a665ac1e.svg",
+    "static/media/linkedin_white.svg": "/CV/static/media/linkedin_white.4b9d6707.svg",
+    "static/media/phone_white.svg": "/CV/static/media/phone_white.6e350343.svg",
+    "static/media/profilepic.png": "/CV/static/media/profilepic.80f94028.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2622315c.js",
+    "static/js/2.50e3d985.chunk.js",
+    "static/css/main.3a099460.chunk.css",
+    "static/js/main.e4e7082d.chunk.js"
+  ]
 }
