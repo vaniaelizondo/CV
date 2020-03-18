@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vaniaelizondo.github.io/CV",
+  "homepage": "https://vaniaelizondo.github.io/CV/",
   "dependencies": {
     "eslint-utils": "^2.0.0",
     "gh-pages": "^2.0.1",
@@ -10,7 +10,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-pdf": "^4.1.0",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^3.4.0",
     "semantic-ui-react": "^0.87.3",
     "serialize-javascript": "^2.1.2",
     "styled-components": "^4.3.2",
@@ -41,5 +41,33 @@
   },
   "devDependencies": {
     "case-sensitive-paths-webpack-plugin": "^2.2.0"
+  },
+  "description": "I made my resume on React.js. You can check it on  https://vaniaelizondo.github.io/CV/",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaniaelizondo/CV.git"
+  },
+  "keywords": [
+    "vania",
+    "alejandra",
+    "elizondo",
+    "martinez",
+    "resume",
+    "cv",
+    "electrical",
+    "engineer",
+    "computer",
+    "science",
+    "digital",
+    "systems",
+    "robotics",
+    "recent",
+    "graduate"
+  ],
+  "author": "Vania A. Elizondo Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaniaelizondo/CV/issues"
   }
 }
