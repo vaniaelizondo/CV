@@ -1,5 +1,5 @@
 body {
-  font-family: "BebasNeueRegular";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
 
@@ -17,45 +17,40 @@ h1 {
   font-size: 3rem;
   font-weight: normal;
   line-height: 1;
+  letter-spacing: 1px;
 }
 
 h2 {
   font-family: "BebasNeueRegular";
   color: white;
+  font-size: 2rem;
   font-weight: normal;
   line-height: 1;
-  font-size: 2rem;
+  letter-spacing: 1px;
 }
 
-ul.title {
+h3 {
+  font-family: "BebasNeueRegular";
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.title {
+  text-align: center;
   list-style-type: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
-}
-
-li.title {
-  box-sizing: border-box;
-}
-
-ul.icons {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-}
-
-li.icons {
+  padding: 1rem 0 1rem 0;
   box-sizing: border-box;
 }
 
 .icons {
-  width: 2rem;
-  height: auto;
+  margin: 0 1rem 0 1rem;
+  width: auto;
+  height: 2rem;
 }
 
 .image-profile {
