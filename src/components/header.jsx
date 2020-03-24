@@ -6,6 +6,28 @@ import github_icon from "../images/github_white.svg";
 import linkedin_icon from "../images/linkedin_white.svg";
 import download_icon from "../images/download_white.svg";
 import CV from "../data/VaniaAlejandraElizondoMartinez.pdf";
+import styled from 'styled-components';
+
+const HeaderBlock = styled.div `
+  background: #952092;
+`;
+
+const HeaderTitle = styled.ul`
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+`;
+
+const HeaderIcons = styled.img`
+  margin: 0.3rem 1rem 0 1rem;
+  width: auto;
+  height: 2rem;
+`;
 
 const Header = ({
   name,
@@ -18,8 +40,8 @@ const Header = ({
   linkedin
 }) => {
   return (
-    <div className="header-block">
-      <ul className="title">
+    <HeaderBlock>
+      <HeaderTitle>
         <li>
           <h1>{name}</h1>
         </li>
@@ -28,56 +50,50 @@ const Header = ({
         </li>
         <li>
           <a href={`mailto:${email}`}>
-            <img
+            <HeaderIcons
               src={email_icon}
-              className="icons"
               title={email}
               alt="Email Icon"
             />
           </a>
           <a href={`callto:${cel}`}>
-            <img
+            <HeaderIcons
               src={phone_icon}
-              className="icons"
               title={cel}
               alt="Phone Icon"
             />
           </a>
           <a href={locationURL} target="_blank" rel="noopener noreferrer">
-            <img
+            <HeaderIcons
               src={mappin_icon}
-              className="icons"
               title={location}
               alt="Map Icon"
             />
           </a>
           <a href={github} target="_blank" rel="noopener noreferrer">
-            <img
+            <HeaderIcons
               src={github_icon}
-              className="icons"
               title={`${github}`}
               alt="Github Icon"
             />
           </a>
           <a href={linkedin} target="_blank" rel="noopener noreferrer">
-            <img
+            <HeaderIcons
               src={linkedin_icon}
-              className="icons"
               title={`${linkedin}`}
               alt="Linkedin Icon"
             />
           </a>
-          <a href={CV} target="_blank">
-            <img
+          <a href={CV} target="_blank" rel="noopener noreferrer">
+            <HeaderIcons
               src={download_icon}
-              className="icons"
               title="Download CV in PDF"
               alt="Download Icon"
             />
           </a>
         </li>
-      </ul>
-    </div>
+      </HeaderTitle>
+    </HeaderBlock>
   );
 };
 

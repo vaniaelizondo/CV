@@ -1,18 +1,11 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2rem;
-}
-
-.header-block {
-  background: #952092;
-}
-
-.grid-bar {
-  margin: 0 !important;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 h1 {
-  font-family: "BebasNeueRegular";
+  font-family: "BebasNeueRegular", Helvetica, Arial, sans-serif;
   color: white;
   font-size: 3rem;
   font-weight: normal;
@@ -21,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-family: "BebasNeueRegular";
+  font-family: "BebasNeueRegular", Helvetica, Arial, sans-serif;
   color: white;
   font-size: 2rem;
   font-weight: normal;
@@ -30,32 +23,58 @@ h2 {
 }
 
 h3 {
-  font-family: "BebasNeueRegular";
+  font-family: "BebasNeueRegular", Helvetica, Arial, sans-serif;
+  color: #952092;
   font-size: 2.5rem;
-  font-weight: normal;
-  line-height: 1;
-  letter-spacing: 1px;
-}
-
-.title {
-  text-align: center;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem 0 1rem 0;
-  box-sizing: border-box;
-}
-
-.icons {
-  margin: 0 1rem 0 1rem;
-  width: auto;
-  height: 2rem;
-}
-
-.image-profile {
+  letter-spacing: 1.5px;
+  width: 25%;
   float: left;
-  width: 11rem;
-  height: auto;
-  margin: 5px;
+  text-align: right;
+}
+
+.SecondColumn {
+  width: 75%;
+  float: left;
+  padding-top: 4px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 0.3rem 0;
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin: 0 0 0.3rem 0;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: dimgray;
+  font-style: italic;
+}
+
+.block {
+  padding-bottom: 1.5rem;
+}
+
+.HorizontalLine {
+  padding: 0.5rem 0;
+  clear: both;
+}
+
+.HorizontalLineInter {
+  padding: 0 0 0.5rem 0;
+  clear: both;
+}
+
+.skills-bars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  column-gap: 2rem;
 }
