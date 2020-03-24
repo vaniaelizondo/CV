@@ -6,13 +6,13 @@ export const data = [
     cel: "8110295364",
     location: "Monterrey, México",
     locationURL:
-      "https://www.google.com/maps/place/Cumbres+4%C2%BA.+Sector+Secc+C,+64619+Monterrey,+N.L./@24.3902058,-102.5045624,5.39z/data=!4m5!3m4!1s0x866296fdf36d670d:0x28a7194c85614551!8m2!3d25.723516!4d-100.3933074",
+      "https://www.google.com/maps/place/Monterrey,+N.L./@23.8890021,-104.1290895,5.55z/data=!4m5!3m4!1s0x86629531b437f8f5:0xa3d3d3ca6ac89894!8m2!3d25.6866142!4d-100.3161126",
     github: "https://github.com/vaniaelizondo",
     linkedin: "https://www.linkedin.com/in/vania-elizondo/",
     bio: [
       "I'm a recent graduate from Tecnológico de Monterrey completing my bachelor's degree in Digital Systems and Robotics. ",
       "During my 4 and a half years studying, the courses I enjoyed the most were microcontrollers, electronics and digital systems, ",
-      "which is why I'm looking to develop myself in the embedded software industry. The optative courses I took were Bid Data Analytics ",
+      "which is why I'm looking to develop myself in the embedded software industry. The optative courses I took were Big Data Analytics ",
       "at UBC and cybersecurity. For my graduation project I simulated a robot factory in Virtual Reality using Unity. ",
       "I consider myself an organized, responsible and adaptable person. I enjoy challenges, teamwork and helping others. "
     ],
@@ -46,7 +46,7 @@ export const data = [
           },
           {
             line:
-              "Continous Jenkins support enhancing deployment time. Corrections on pipeline syntax and added feautres such as HTML reports."
+              "Continous Jenkins support enhancing deployment time. Corrections on pipeline syntax and added features such as HTML reports."
           },
           {
             line: "PowerBI support to verify employees' work hours."
@@ -54,7 +54,7 @@ export const data = [
         ]
       },
       {
-        title: "Back-end development intership",
+        title: "Back-end development internship",
         company: "NEORIS",
         date: "October 2018 - May 2019",
         description: [
@@ -103,7 +103,7 @@ export const data = [
             line: "Social service activities with drug addicts, single moms and the elderly."
           },
           {
-            line: "Rural missions in 4 different low-income towns."
+            line: "Rural missions in 4 different low-income communities."
           }
         ]
       }
@@ -118,11 +118,11 @@ export const data = [
           },
           {
             name: "Python",
-            level: "70"
+            level: "75"
           },
           {
             name: "Arduino",
-            level: "75"
+            level: "70"
           },
           {
             name: "VHDL",
@@ -130,7 +130,7 @@ export const data = [
           },
           {
             name: "Assembly",
-            level: "65"
+            level: "60"
           }
         ]
       },
@@ -143,7 +143,7 @@ export const data = [
           },
           {
             name: "R",
-            level: "50"
+            level: "40"
           },
           {
             name: "Unity",
@@ -196,6 +196,42 @@ export const data = [
             level: "25"
           }
         ]
+      }
+    ],
+    projects: [
+      {
+        title: "Compiler",
+        language: "Python",
+        website: "https://github.com/vaniaelizondo/MyCompiler",
+        description: "Designed the syntax and grammar of my own compiler to perform simple mathematical equations."
+      }, 
+      {
+        title: "Digital Control Loop Simulator",
+        language: "Python",
+        website: "https://github.com/vaniaelizondo/DigitalControl",
+        description: "Simulation of a real-time system control in its manual and automatic operation mode."
+      }
+    ],
+    extras: [
+      {
+        title: "Rural missions in low-income communities",
+        place: "México, United States, Colombia",
+        date: "2010 - 2018"
+      },
+      {
+        title: "Cerebral palsy children tuition",
+        place: "Instituto Nuevo Amanecer",
+        date: "June 2017"
+      },
+      {
+        title: "Children game therapy",
+        place: "Hospital Regional Materno Infantil",
+        date: "June 2017"
+      }, 
+      {
+        title: "IEEE Student Committee",
+        place: "Tecnológico de Monterrey",
+        date: "August 2016 - May 2017"
       }
     ]
   }

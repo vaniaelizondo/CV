@@ -7,6 +7,8 @@ import AboutMe from "./components/AboutMe.jsx";
 import Education from "./components/Education.jsx";
 import Experience from "./components/Experience.jsx";
 import Skills from "./components/Skills.jsx";
+import Projects from "./components/Projects.jsx";
+import Extras from "./components/Extras.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
@@ -24,12 +26,14 @@ function App() {
         linkedin={info.linkedin}
       />
       <Container>
-        <AboutMe bio={info.bio}/>
-        <Education education={info.education} />
-        <Experience experience={info.experience}/>
-        <Skills skills={info.skills}/>
+          <AboutMe bio={info.bio} />
+          <Education education={info.education} />
+          <Experience experience={info.experience} />
+          <Skills skills={info.skills} />
+          <Projects projects={info.projects} />
+          <Extras extras={info.extras} />
       </Container>
-      <Footer 
+      <Footer
         name={info.name}
         email={info.email}
         cel={info.cel}

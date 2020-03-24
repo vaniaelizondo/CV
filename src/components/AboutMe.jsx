@@ -1,10 +1,14 @@
 import React from "react";
 
-const AboutMe = ({bio}) => {
+const AboutMe = ({ bio }) => {
   return (
     <div>
-      <h3>About Me</h3>
-      <div className="SecondColumn">{bio}</div>
+      <div className="TwoColumns">
+        <h3>About Me</h3>
+        <div className="SecondColumn">
+          <div className="block">{bio}</div>
+        </div>
+      </div>
       <div className="HorizontalLine">
         <hr />
       </div>
