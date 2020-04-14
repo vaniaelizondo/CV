@@ -156,6 +156,10 @@ export const data = [
           {
             name: "LTSpice",
             level: "50"
+          },
+          {
+            name: "Eagle",
+            level: "25"
           }
         ]
       },
@@ -173,6 +177,14 @@ export const data = [
           {
             name: "Git",
             level: "70"
+          }, 
+          {
+            name: "MongoDB",
+            level: "40"
+          },
+          {
+            name: "MySQL",
+            level: "30"
           }
         ]
       },
@@ -210,6 +222,18 @@ export const data = [
         language: "Python",
         website: "https://github.com/vaniaelizondo/DigitalControl",
         description: "Simulation of a real-time system control in its manual and automatic operation mode."
+      },
+      {
+        title: "Sports Club Reservation Program",
+        language: "C++",
+        website: "https://github.com/vaniaelizondo/SportsClub",
+        description: "Simple object-oriented program that shows equipment and sports fields availability at a sports club."
+      },
+      {
+        title: "Mahjong Game",
+        language: "C++",
+        website: "https://github.com/vaniaelizondo/MahjongGame",
+        description: "Introductory programming project that lets the user play a Mahjong game."
       }
     ],
     extras: [
