@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "318ac7bc71b168b6d0e855c6aa7f3de5",
+    "revision": "656b187a2877f3416d2149725dd82ac6",
     "url": "/CV/index.html"
   },
   {
-    "revision": "76a235c0a9d8d5557c14",
+    "revision": "43d69ede741f8464e556",
     "url": "/CV/static/css/main.c295e41c.chunk.css"
   },
   {
-    "revision": "ceab18614674b67bfca6",
-    "url": "/CV/static/js/2.489c7ce6.chunk.js"
+    "revision": "c6ee3f5ae8428c0b176a",
+    "url": "/CV/static/js/2.8d77b7ab.chunk.js"
   },
   {
     "revision": "f88b36470b8b650da4a18244e35dd001",
-    "url": "/CV/static/js/2.489c7ce6.chunk.js.LICENSE.txt"
+    "url": "/CV/static/js/2.8d77b7ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76a235c0a9d8d5557c14",
-    "url": "/CV/static/js/main.d2740a34.chunk.js"
+    "revision": "43d69ede741f8464e556",
+    "url": "/CV/static/js/main.8440cb6b.chunk.js"
   },
   {
-    "revision": "92af74177e04782dba51",
-    "url": "/CV/static/js/runtime-main.4b5e063e.js"
+    "revision": "0fda473a3f828b4b9eff",
+    "url": "/CV/static/js/runtime-main.4bacae7b.js"
   },
   {
-    "revision": "e22d86cc182cb14cf5731f654d0b6cb5",
-    "url": "/CV/static/media/VaniaAlejandraElizondoMartinez.e22d86cc.pdf"
+    "revision": "6d95d0a9891fb9a627ee08a850f3f467",
+    "url": "/CV/static/media/VaniaAlejandraElizondoMartinez.6d95d0a9.pdf"
   },
   {
     "revision": "ddc49feebe3b9fd3e8b56590dc5c29a1",
