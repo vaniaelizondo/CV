@@ -10,9 +10,9 @@ export const data = [
     github: "https://github.com/vaniaelizondo",
     linkedin: "https://www.linkedin.com/in/vania-elizondo/",
     bio: [
-      "I'm a recent graduate from Tecnológico de Monterrey completing my bachelor's degree in Digital Systems and Robotics. ",
-      "During my 4 and a half years studying, the courses I enjoyed the most were microcontrollers, electronics and digital systems, ",
-      "which is why I'm looking to develop myself in the embedded software industry. The optative courses I took were Big Data Analytics ",
+      "I graduated from Tecnológico de Monterrey completing my bachelor's degree in Digital Systems and Robotics. ",
+      "During my 4 and a half years studying, the courses I enjoyed the most were web development, microcontrollers and digital systems, ",
+      "which led me to focus on the front-end industry. The optative courses I took were Big Data Analytics ",
       "at UBC and cybersecurity. For my graduation project I simulated a robot factory in Virtual Reality using Unity. ",
       "I consider myself an organized, responsible and adaptable person. I enjoy challenges, teamwork and helping others. "
     ],
@@ -35,6 +35,27 @@ export const data = [
       }
     ],
     experience: [
+      {
+        title: "Front-end engineer",
+        company: "Envia.com",
+        date: "April 2020 - Present",
+        description: [
+          {
+            line:
+              "Continous JavaScript and jQuery improvement on the main site envia.com."
+          },
+          {
+            line:
+              "Design, creation and implementation of new PHP views."
+          },
+          {
+            line: "Fix of daily functionality and design bugs."
+          },
+          {
+            line: "Creation of Prestashop and Magento2 modules for integration."
+          }
+        ]
+      },
       {
         title: "Embedded software internship",
         company: "John Deere",
@@ -168,22 +189,30 @@ export const data = [
         tools: [
           {
             name: "HTML",
-            level: "60"
+            level: "95"
           },
           {
             name: "React.js",
             level: "50"
           },
           {
+            name: "JavaScript",
+            level: "90"
+          }, 
+          {
+            name: "jQuery",
+            level: "80"
+          }, 
+          {
             name: "Git",
             level: "70"
           }, 
           {
-            name: "MongoDB",
+            name: "MySQL",
             level: "40"
           },
           {
-            name: "MySQL",
+            name: "MongoDB",
             level: "30"
           }
         ]
@@ -237,6 +266,11 @@ export const data = [
       }
     ],
     extras: [
+      {
+        title: "HTML, CSS and JavaScript Tutor",
+        place: "Superprof.com",
+        date: "Present"
+      },
       {
         title: "Rural missions in low-income communities",
         place: "México, United States, Colombia",
