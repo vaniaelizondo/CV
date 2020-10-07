@@ -4,17 +4,17 @@
   "private": true,
   "homepage": "https://vaniaelizondo.github.io/CV/",
   "dependencies": {
-    "eslint-utils": "^2.0.0",
-    "gh-pages": "^2.0.1",
-    "handlebars": "^4.6.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-pdf": "^4.1.0",
-    "react-scripts": "^3.4.0",
+    "eslint-utils": "^2.1.0",
+    "gh-pages": "^2.2.0",
+    "handlebars": "^4.7.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-pdf": "^4.2.0",
+    "react-scripts": "^3.4.3",
     "semantic-ui-react": "^0.87.3",
     "serialize-javascript": "^2.1.2",
-    "styled-components": "^4.3.2",
-    "yarn": "^1.17.3"
+    "styled-components": "^4.4.1",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,7 +40,7 @@
     ]
   },
   "devDependencies": {
-    "case-sensitive-paths-webpack-plugin": "^2.2.0"
+    "case-sensitive-paths-webpack-plugin": "^2.3.0"
   },
   "description": "I made my resume on React.js. You can check it on  https://vaniaelizondo.github.io/CV/",
   "main": "index.js",
@@ -63,7 +63,9 @@
     "systems",
     "robotics",
     "recent",
-    "graduate"
+    "graduate",
+    "front-end",
+    "react"
   ],
   "author": "Vania A. Elizondo Martínez",
   "license": "ISC",
