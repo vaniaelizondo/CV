@@ -10,9 +10,9 @@ const Projects = ({ projects }) => {
             <div className="block" key={index}>
               <h4>{project.title}</h4>
               <h5>{project.language}</h5>
-			  <a href={project.website} target="_blank" rel="noopener noreferrer">
-				<h6>{project.website}</h6>
-			  </a>
+              <a href={project.website} target="_blank" rel="noopener noreferrer">
+                <h6>{project.website}</h6>
+              </a>
               <p>{project.description}</p>
             </div>
           ))}

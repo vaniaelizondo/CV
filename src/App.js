@@ -2,9 +2,10 @@ import React from "react";
 import { data } from "./data/data";
 import { Container } from "semantic-ui-react";
 import "./styles/App.css";
-import Header from "./components/Header.jsx";
+import Header from "./components/header.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import Education from "./components/Education.jsx";
+import Courses from "./components/Courses.jsx";
 import Experience from "./components/Experience.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
@@ -27,8 +28,9 @@ function App() {
       />
       <Container>
           <AboutMe bio={info.bio} />
-          <Education education={info.education} />
           <Experience experience={info.experience} />
+          <Education education={info.education} />
+          <Courses courses={info.courses} />
           <Skills skills={info.skills} />
           <Projects projects={info.projects} />
           <Extras extras={info.extras} />

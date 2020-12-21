@@ -9,13 +9,7 @@ export const data = [
       "https://www.google.com/maps/place/Monterrey,+N.L./@23.8890021,-104.1290895,5.55z/data=!4m5!3m4!1s0x86629531b437f8f5:0xa3d3d3ca6ac89894!8m2!3d25.6866142!4d-100.3161126",
     github: "https://github.com/vaniaelizondo",
     linkedin: "https://www.linkedin.com/in/vania-elizondo/",
-    bio: [
-      "I graduated from Tecnológico de Monterrey completing my bachelor's degree in Digital Systems and Robotics. ",
-      "During my 4 and a half years studying, the courses I enjoyed the most were web development, microcontrollers and digital systems, ",
-      "which led me to focus on the front-end industry. The optative courses I took were Big Data Analytics ",
-      "at UBC and cybersecurity. For my graduation project I simulated a robot factory in Virtual Reality using Unity. ",
-      "I consider myself an organized, responsible and adaptable person. I enjoy challenges, teamwork and helping others. "
-    ],
+    bio: "I graduated from Tecnológico de Monterrey completing my bachelor's degree in Digital Systems and Robotics. During my 4 and a half years studying, the courses I enjoyed the most were web development, microcontrollers and digital systems, which led me to focus on the front-end industry. The optative courses I took were Big Data Analytics at UBC and cybersecurity. For my graduation project I simulated a robot factory in Virtual Reality using Unity. I consider myself an organized, responsible and adaptable person. I enjoy challenges, teamwork and helping others.",
     education: [
       {
         degree:
@@ -24,15 +18,24 @@ export const data = [
         date: "August 2015 - December 2019"
       },
       {
-        degree: "Big data and new technologies in cities Certificate",
-        campus: "University of British Columbia, Vancouver",
-        date: "June 2019"
-      },
-      {
         degree: "International Baccalaureate (IB) Certificate",
         campus: "Prepa Tec, Campus Cumbres",
         date: "August 2011 - May 2014"
       }
+    ],
+    courses: [
+      {
+        name: "UI / UX Design Specialization",
+        place: "California Institute of the Arts",
+        url: "https://coursera.org/verify/specialization/6MYRCXUNJK4G",
+        date: "",
+      },
+      {
+        name: "Big data and new technologies in cities Certificate",
+        place: "University of British Columbia, Vancouver",
+        date: "June 2019",
+        url: "",
+      },
     ],
     experience: [
       {
@@ -156,35 +159,6 @@ export const data = [
         ]
       },
       {
-        title: "Modelling and Simulation",
-        tools: [
-          {
-            name: "Matlab",
-            level: "60"
-          },
-          {
-            name: "R",
-            level: "40"
-          },
-          {
-            name: "Unity",
-            level: "30"
-          },
-          {
-            name: "LabView",
-            level: "45"
-          },
-          {
-            name: "LTSpice",
-            level: "50"
-          },
-          {
-            name: "Eagle",
-            level: "25"
-          }
-        ]
-      },
-      {
         title: "Web Development",
         tools: [
           {
@@ -214,6 +188,35 @@ export const data = [
           {
             name: "MongoDB",
             level: "30"
+          }
+        ]
+      },
+      {
+        title: "Modelling and Simulation",
+        tools: [
+          {
+            name: "Matlab",
+            level: "60"
+          },
+          {
+            name: "R",
+            level: "40"
+          },
+          {
+            name: "Unity",
+            level: "30"
+          },
+          {
+            name: "LabView",
+            level: "45"
+          },
+          {
+            name: "LTSpice",
+            level: "50"
+          },
+          {
+            name: "Eagle",
+            level: "25"
           }
         ]
       },
@@ -269,7 +272,7 @@ export const data = [
       {
         title: "HTML, CSS and JavaScript Tutor",
         place: "Superprof.com",
-        date: "Present"
+        date: "September 2020"
       },
       {
         title: "Rural missions in low-income communities",
