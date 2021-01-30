@@ -25,6 +25,18 @@ export const data = [
     ],
     courses: [
       {
+        name: "Neural Networks and Deep Learning",
+        place: "Deep Learning",
+        url: "https://coursera.org/verify/ZBS3EEGZV9BJ",
+        date: "",
+      },
+      {
+        name: "AWS S3 Basics",
+        place: "Coursera",
+        url: "https://coursera.org/verify/J6G4XCBYRB57",
+        date: "",
+      },
+      {
         name: "UI / UX Design Specialization",
         place: "California Institute of the Arts",
         url: "https://coursera.org/verify/specialization/6MYRCXUNJK4G",
