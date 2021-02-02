@@ -83,7 +83,8 @@ hr {
 }
 
 a[href]:hover h6 {
-  color: #952092
+  color: #952092;
+  font-weight: bold;
 }
 
 .skills-bars {

@@ -90,7 +90,7 @@ export const data = [
         ]
       },
       {
-        title: "Back-end development internship",
+        title: "Web development internship",
         company: "NEORIS",
         date: "October 2018 - May 2019",
         description: [
