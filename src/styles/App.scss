@@ -1,0 +1,162 @@
+@import './variables';
+
+body {
+  font-family: $font-family;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: $black;
+}
+
+h1 {
+  font-family: $font-family;
+  color: $white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: $font-family;
+  color: $green;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-family: $font-family;
+  color: $green;
+  font-size: 2.5rem;
+  text-align: center;
+  transform: translateY(0px);
+  transition: all .5s;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding-top: 5rem;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+h4 {
+  font-family: $font-family;
+  color: $purple;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 0.3rem 0;
+}
+
+h5 {
+  font-family: $font-family;
+  color: $darkBlue;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem 0;
+}
+
+h6 {
+  font-family: $font-family;
+  font-size: 1.1rem;
+  color: $darkGray;
+  font-style: italic;
+}
+
+.block {
+  padding-bottom: 3rem;
+
+  .TwoColumns {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 3rem;
+    grid-row-gap: 0.5em;
+
+    .FirstColumn {
+      .logo {
+        max-width: 5rem;
+        float: right;
+      }
+      
+      .icon {
+        float: right;
+        color: $darkBlue;
+        font-size: 40px;
+      }
+    }
+  }
+
+  .list::before {
+    color: $purple;
+    content: "✽ ";
+  }
+
+  .MobileColumn {
+    display: none;
+    margin-top: 0.5rem;
+  }
+  
+  &:nth-of-type(2) .TwoColumns .FirstColumn .icon {
+    color: $green;
+  }
+  
+  &:nth-of-type(3) .TwoColumns .FirstColumn .icon {
+    color: $darkPurple;
+  }
+  
+  &:nth-of-type(4) .TwoColumns .FirstColumn .icon {
+    color: $blue;
+  }
+}
+
+hr {
+  margin: 0 !important;
+}
+
+.HorizontalLine {
+  padding: 0 0 1.5rem 0;
+  clear: both;
+}
+
+a[href]:hover h6 {
+  color: $green;
+  font-weight: 600;
+}
+
+.skills-bars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  column-gap: 2rem;
+}
+
+/* RESPONSIVE RULES */
+@media only screen and (max-width: 768px) {
+  .block {
+    .TwoColumns {
+      grid-gap: 1rem;
+
+      .SecondColumn {
+        .description {
+          display: none;
+        }
+      }
+    }
+      
+    .MobileColumn {
+      display: block;
+      padding: 0 10%;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .block {
+    .MobileColumn {
+      padding: 0;
+    }
+  }
+
+  .skills-bars {
+    grid-template-columns: 1fr;
+  }
+}

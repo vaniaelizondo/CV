@@ -1,9 +1,8 @@
 import React from "react";
-import { data } from "./data/data";
+import data from "./data/data";
 import { Container } from "semantic-ui-react";
-import "./styles/App.css";
-import Header from "./components/header.jsx";
-import AboutMe from "./components/AboutMe.jsx";
+import "./styles/App.scss";
+import Header from "./components/Header.jsx";
 import Education from "./components/Education.jsx";
 import Courses from "./components/Courses.jsx";
 import Experience from "./components/Experience.jsx";
@@ -13,33 +12,32 @@ import Extras from "./components/Extras.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
-  const info = data[0];
   return (
     <div>
       <Header
-        name={info.name}
-        title={info.title}
-        email={info.email}
-        cel={info.cel}
-        location={info.location}
-        locationURL={info.locationURL}
-        github={info.github}
-        linkedin={info.linkedin}
+        name={data.name}
+        title={data.title}
+        email={data.email}
+        cel={data.cel}
+        location={data.location}
+        locationURL={data.locationURL}
+        github={data.github}
+        linkedin={data.linkedin}
+        bio={data.bio}
       />
-      <Container>
-          <AboutMe bio={info.bio} />
-          <Experience experience={info.experience} />
-          <Education education={info.education} />
-          <Courses courses={info.courses} />
-          <Skills skills={info.skills} />
-          <Projects projects={info.projects} />
-          <Extras extras={info.extras} />
+      <Container fluid>
+          <Experience experience={data.experience} />
+          <Education education={data.education} />
+          <Courses courses={data.courses} />
+          <Skills skills={data.skills} />
+          <Projects projects={data.projects} />
+          <Extras extras={data.extras} />
       </Container>
       <Footer
-        name={info.name}
-        email={info.email}
-        cel={info.cel}
-        location={info.location}
+        name={data.name}
+        email={data.email}
+        cel={data.cel}
+        location={data.location}
       />
     </div>
   );

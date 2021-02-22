@@ -1,0 +1,118 @@
+@import './variables';
+
+#Home {
+  background: $lightBlue;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+
+  #navbar {
+    background-color: $lightBlue;
+    margin-bottom: 5rem;
+
+    .navbar-brand {
+      color: $white;
+      font-weight: bold;
+      font-size: 24px;
+      letter-spacing: 1.25px;
+    }
+    
+    .nav-link {
+      color: $white;
+      font-weight: bold;
+      font-size: 18px;
+      letter-spacing: 1.25px;
+      text-decoration: none;
+      padding: 1rem;
+      
+      &:hover {
+        color: $green;
+      }
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+  }
+
+  .header-title {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    .profile {
+      width: 20%;
+      height: auto;
+      border-radius: 50%;
+      border: 0.25rem solid $white;
+    }
+
+    .header-icons {
+      margin-top: 2rem;
+
+      a {
+        transform: translateY(0px);
+        transition: all 1s;
+
+        img {
+          width: auto;
+          height: 2rem;
+        }
+
+        &:not(:first-of-type) {
+          margin-left: 2rem;
+        }
+
+        :hover {
+          transform: translateY(-5px);
+        }
+      }
+    }
+  }
+
+  .header-about {
+    border-radius: 3rem;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 1.5rem 2rem;
+    background-color: $white;
+    color: $green;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 70%;
+		position: relative;
+    text-align: center;
+
+    &::after {
+      content: ' ';
+      position: absolute;
+      width: auto;
+      height: auto;
+      left: 48%;
+      right: auto;
+      top: -30px;
+      bottom: auto;
+      border: 15px solid;
+      border-color: transparent transparent $white;
+    }
+  }
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 768px) {
+  #Home {
+    .header-title .profile {
+      width: 30%;
+    }
+
+    .header-about {
+      width: 85%;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #Home {
+    .header-title .profile {
+      width: 50%;
+    }
+  }
+}
