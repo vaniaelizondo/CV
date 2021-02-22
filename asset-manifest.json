@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.77e60f91.chunk.css",
-    "main.js": "/CV/static/js/main.46856601.chunk.js",
-    "main.js.map": "/CV/static/js/main.46856601.chunk.js.map",
+    "main.css": "/CV/static/css/main.04eaee0a.chunk.css",
+    "main.js": "/CV/static/js/main.7dca1095.chunk.js",
+    "main.js.map": "/CV/static/js/main.7dca1095.chunk.js.map",
     "runtime-main.js": "/CV/static/js/runtime-main.4d0d12ac.js",
     "runtime-main.js.map": "/CV/static/js/runtime-main.4d0d12ac.js.map",
-    "static/js/2.36ec4700.chunk.js": "/CV/static/js/2.36ec4700.chunk.js",
-    "static/js/2.36ec4700.chunk.js.map": "/CV/static/js/2.36ec4700.chunk.js.map",
+    "static/js/2.598148aa.chunk.js": "/CV/static/js/2.598148aa.chunk.js",
+    "static/js/2.598148aa.chunk.js.map": "/CV/static/js/2.598148aa.chunk.js.map",
     "index.html": "/CV/index.html",
-    "precache-manifest.5e49fb26d9d6ad2538d88e4ab5f3eda4.js": "/CV/precache-manifest.5e49fb26d9d6ad2538d88e4ab5f3eda4.js",
+    "precache-manifest.40b854de32c9f18927d0c4b7e37be0c8.js": "/CV/precache-manifest.40b854de32c9f18927d0c4b7e37be0c8.js",
     "service-worker.js": "/CV/service-worker.js",
-    "static/css/main.77e60f91.chunk.css.map": "/CV/static/css/main.77e60f91.chunk.css.map",
-    "static/js/2.36ec4700.chunk.js.LICENSE.txt": "/CV/static/js/2.36ec4700.chunk.js.LICENSE.txt",
+    "static/css/main.04eaee0a.chunk.css.map": "/CV/static/css/main.04eaee0a.chunk.css.map",
+    "static/js/2.598148aa.chunk.js.LICENSE.txt": "/CV/static/js/2.598148aa.chunk.js.LICENSE.txt",
     "static/media/VaniaAlejandraElizondoMartinez.pdf": "/CV/static/media/VaniaAlejandraElizondoMartinez.b6f401f8.pdf",
     "static/media/download_white.svg": "/CV/static/media/download_white.ddc49fee.svg",
     "static/media/email_white.svg": "/CV/static/media/email_white.a665ac1e.svg",
+    "static/media/envia.png": "/CV/static/media/envia.8ea09070.png",
     "static/media/github_white.svg": "/CV/static/media/github_white.7d97c161.svg",
+    "static/media/john_deere.png": "/CV/static/media/john_deere.68a04949.png",
     "static/media/linkedin_white.svg": "/CV/static/media/linkedin_white.4b9d6707.svg",
     "static/media/mappin_white.svg": "/CV/static/media/mappin_white.bf4b5067.svg",
-    "static/media/phone_white.svg": "/CV/static/media/phone_white.6e350343.svg"
+    "static/media/phone_white.svg": "/CV/static/media/phone_white.6e350343.svg",
+    "static/media/profile.jpg": "/CV/static/media/profile.037f5ffd.jpg",
+    "static/media/ternium.jpg": "/CV/static/media/ternium.5c7b2b2f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4d0d12ac.js",
-    "static/js/2.36ec4700.chunk.js",
-    "static/css/main.77e60f91.chunk.css",
-    "static/js/main.46856601.chunk.js"
+    "static/js/2.598148aa.chunk.js",
+    "static/css/main.04eaee0a.chunk.css",
+    "static/js/main.7dca1095.chunk.js"
   ]
 }
