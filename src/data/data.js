@@ -50,9 +50,23 @@ const data = {
   ],
   experience: [
     {
+      title: "Developer",
+      company: "Kalypso",
+      date: "May 2021 - Present",
+      logo: require("../images/kalypso.jpg"),
+      description: [
+        {
+          line: "Java PTC design, build and test."
+        },
+        {
+          line: "Windchill application for Controls, FD, ACVS, and JCH."
+        }
+      ]
+    },
+    {
       title: "Front-end engineer",
       company: "Envia.com",
-      date: "April 2020 - Present",
+      date: "April 2020 - April 2021",
       logo: require("../images/envia.png"),
       description: [
         {
