@@ -53,7 +53,7 @@ const data = {
       title: "Developer",
       company: "Kalypso",
       date: "May 2021 - Present",
-      logo: require("../images/kalypso.jpg"),
+      logo: require("../images/kalypso.jpeg"),
       description: [
         {
           line: "Java PTC design, build and test."
