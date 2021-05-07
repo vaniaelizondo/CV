@@ -71,7 +71,7 @@ const data = {
       description: [
         {
           line:
-            "Continous JavaScript and jQuery improvement on the main site envia.com."
+            "Continuous JavaScript and jQuery improvement on the main site envia.com."
         },
         {
           line:
@@ -97,7 +97,7 @@ const data = {
         },
         {
           line:
-            "Continous Jenkins support enhancing deployment time. Corrections on pipeline syntax and added features such as HTML reports."
+            "Continuous Jenkins support enhancing deployment time. Corrections on pipeline syntax and added features such as HTML reports."
         },
         {
           line: "PowerBI support to verify employees' work hours."
@@ -118,7 +118,7 @@ const data = {
             "Developed mtydigitalhub.com website with React.js. Creation of fields with Strapi and queries with GraphQL."
         },
         {
-          line: "MongoDB continous support."
+          line: "MongoDB continuous support."
         }
       ]
     },
