@@ -7,7 +7,7 @@
     "bootstrap": "^4.6.0",
     "eslint-utils": "^2.1.0",
     "gh-pages": "^2.2.0",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "immer": "^8.0.1",
     "node-notifier": "^8.0.1",
     "node-sass": "^4.14.1",
