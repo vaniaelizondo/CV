@@ -24,9 +24,9 @@ const data = {
   ],
   courses: [
     {
-      name: "Neural Networks and Deep Learning",
-      place: "Deep Learning",
-      url: "https://coursera.org/verify/ZBS3EEGZV9BJ",
+      name: "Deep Learning Specialization",
+      place: "Deep Learning.AI",
+      url: "https://coursera.org/verify/specialization/LQ8PDP3CZM4R",
       date: "",
     },
     {
@@ -56,10 +56,10 @@ const data = {
       logo: require("../images/kalypso.jpeg"),
       description: [
         {
-          line: "Java PTC design, build and test."
+          line: "PTC's Windchill customization, build and deployment."
         },
         {
-          line: "Windchill application for Controls, FD, ACVS, and JCH."
+          line: "Java development for Windchill's inner functionality expansion."
         }
       ]
     },
