@@ -56,10 +56,13 @@ const data = {
       logo: require("../images/kalypso.jpeg"),
       description: [
         {
-          line: "PTC's Windchill customization, build and deployment."
+          line: "Windchill customization, build and deployment."
         },
         {
-          line: "Java development for Windchill's inner functionality expansion."
+          line: "Java development for Windchill's personalization and expansion."
+        },
+        {
+          line: "Creation of Python scripts for data organization."
         }
       ]
     },
