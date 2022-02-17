@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d3138ee64735dba295417cb085fe81f",
+    "revision": "f2780985f9ee0697d89a38af0a281eae",
     "url": "/CV/index.html"
   },
   {
-    "revision": "e3146e3cb63525518b99",
+    "revision": "e8425a51511a960f84bb",
     "url": "/CV/static/css/main.04eaee0a.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CV/static/js/2.5bbb3990.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3146e3cb63525518b99",
-    "url": "/CV/static/js/main.0f62fb60.chunk.js"
+    "revision": "e8425a51511a960f84bb",
+    "url": "/CV/static/js/main.16598165.chunk.js"
   },
   {
     "revision": "e4d273214469930d29bd",
     "url": "/CV/static/js/runtime-main.4d0d12ac.js"
   },
   {
-    "revision": "01a746344da59b5a8ba503f15bfd1ad0",
-    "url": "/CV/static/media/VaniaAlejandraElizondoMartinez.01a74634.pdf"
+    "revision": "8c290b3dcedcc1f240775ad5c8c1c94e",
+    "url": "/CV/static/media/VaniaAlejandraElizondoMartinez.8c290b3d.pdf"
   },
   {
     "revision": "ddc49feebe3b9fd3e8b56590dc5c29a1",
