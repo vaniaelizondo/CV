@@ -12,11 +12,14 @@ const FooterDiv =styled.div`
 	color: white;
 `;
 
+const date = new Date();
+const year = date.getFullYear();
+
 const Footer = ({name, email, cel, location}) => {
   return (
     <FooterBlock>
       <FooterDiv>{email} &nbsp; | &nbsp; {cel} &nbsp; | &nbsp; {location}</FooterDiv>
-      <FooterDiv>© 2021 &nbsp;{name}. &nbsp;All rights reserved.</FooterDiv>
+      <FooterDiv>© {year} &nbsp;{name}. &nbsp;All rights reserved.</FooterDiv>
     </FooterBlock>
   );
 };
