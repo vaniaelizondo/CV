@@ -157,16 +157,20 @@ const data = {
           level: "75"
         },
         {
+          name: "Java",
+          level: "65"
+        },
+        {
           name: "Arduino",
-          level: "70"
+          level: "65"
         },
         {
           name: "VHDL",
-          level: "50"
+          level: "45"
         },
         {
           name: "Assembly",
-          level: "60"
+          level: "50"
         }
       ]
     },
