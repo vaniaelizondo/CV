@@ -80,7 +80,7 @@ h6 {
       
       .icon {
         float: right;
-        color: $darkBlue;
+        color: $darkPurple;
         font-size: 40px;
       }
     }
@@ -97,11 +97,11 @@ h6 {
   }
   
   &:nth-of-type(2) .TwoColumns .FirstColumn .icon {
-    color: $green;
+    color: $darkBlue;
   }
   
   &:nth-of-type(3) .TwoColumns .FirstColumn .icon {
-    color: $darkPurple;
+    color: $green;
   }
   
   &:nth-of-type(4) .TwoColumns .FirstColumn .icon {

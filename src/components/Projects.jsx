@@ -1,5 +1,5 @@
 import React from "react";
-import { SiPython, SiCplusplus } from 'react-icons/si';
+import { SiPhp, SiPython, SiCplusplus } from 'react-icons/si';
 
 const Projects = ({ projects }) => {
   return (
@@ -9,9 +9,12 @@ const Projects = ({ projects }) => {
           <div className="block" key={index}>
             <div className="TwoColumns">
               <div className="FirstColumn">
-                {[0,1].includes(index) 
-                  ? <SiPython className="icon" />
-                  : <SiCplusplus className="icon" />
+                {project.language === "PHP" 
+                  ? <SiPhp className="icon" />
+                  : (project.language === "Python" 
+                    ? <SiPython className="icon" />
+                    : <SiCplusplus className="icon" />
+                  )
                 }
               </div>
               <div className="SecondColumn">
