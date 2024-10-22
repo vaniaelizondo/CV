@@ -1,33 +1,24 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.2af745ac.chunk.css",
-    "main.js": "/CV/static/js/main.29c46053.chunk.js",
-    "main.js.map": "/CV/static/js/main.29c46053.chunk.js.map",
-    "runtime-main.js": "/CV/static/js/runtime-main.4d0d12ac.js",
-    "runtime-main.js.map": "/CV/static/js/runtime-main.4d0d12ac.js.map",
-    "static/js/2.5bbb3990.chunk.js": "/CV/static/js/2.5bbb3990.chunk.js",
-    "static/js/2.5bbb3990.chunk.js.map": "/CV/static/js/2.5bbb3990.chunk.js.map",
+    "main.css": "/CV/static/css/main.729f9efa.css",
+    "main.js": "/CV/static/js/main.4d44bc09.js",
+    "static/media/VaniaAlejandraElizondoMartinez.pdf": "/CV/static/media/VaniaAlejandraElizondoMartinez.484ac5126f4acf393ca8.pdf",
+    "static/media/john_deere.png": "/CV/static/media/john_deere.20f3780d93597d33abec.png",
+    "static/media/profile.jpg": "/CV/static/media/profile.90231f305e47d269119c.jpg",
+    "static/media/envia.png": "/CV/static/media/envia.0c78b2765198f005e4ca.png",
+    "static/media/ternium.jpg": "/CV/static/media/ternium.902f7288f4e02764bb8f.jpg",
+    "static/media/github_white.svg": "/CV/static/media/github_white.d48470b7b8f0e3a6d59c1baaece48731.svg",
+    "static/media/email_white.svg": "/CV/static/media/email_white.6e1ccebd80c538419cce7793951da2c3.svg",
+    "static/media/download_white.svg": "/CV/static/media/download_white.b7dc9e3d9c7a38a3a3db4d3338610b87.svg",
     "index.html": "/CV/index.html",
-    "precache-manifest.183f9eb0524468e70307561c38a1c558.js": "/CV/precache-manifest.183f9eb0524468e70307561c38a1c558.js",
-    "service-worker.js": "/CV/service-worker.js",
-    "static/css/main.2af745ac.chunk.css.map": "/CV/static/css/main.2af745ac.chunk.css.map",
-    "static/js/2.5bbb3990.chunk.js.LICENSE.txt": "/CV/static/js/2.5bbb3990.chunk.js.LICENSE.txt",
-    "static/media/VaniaAlejandraElizondoMartinez.pdf": "/CV/static/media/VaniaAlejandraElizondoMartinez.8c290b3d.pdf",
-    "static/media/download_white.svg": "/CV/static/media/download_white.ddc49fee.svg",
-    "static/media/email_white.svg": "/CV/static/media/email_white.a665ac1e.svg",
-    "static/media/envia.png": "/CV/static/media/envia.8ea09070.png",
-    "static/media/github_white.svg": "/CV/static/media/github_white.7d97c161.svg",
-    "static/media/john_deere.png": "/CV/static/media/john_deere.68a04949.png",
-    "static/media/linkedin_white.svg": "/CV/static/media/linkedin_white.4b9d6707.svg",
-    "static/media/mappin_white.svg": "/CV/static/media/mappin_white.bf4b5067.svg",
-    "static/media/phone_white.svg": "/CV/static/media/phone_white.6e350343.svg",
-    "static/media/profile.jpg": "/CV/static/media/profile.037f5ffd.jpg",
-    "static/media/ternium.jpg": "/CV/static/media/ternium.5c7b2b2f.jpg"
+    "static/media/phone_white.svg": "/CV/static/media/phone_white.3b342102daf71263fa4472080dc005fb.svg",
+    "static/media/linkedin_white.svg": "/CV/static/media/linkedin_white.44cba807bbbbedf4eea2a988b864a6f6.svg",
+    "static/media/mappin_white.svg": "/CV/static/media/mappin_white.61c83fc11f260013d16af9c3ceb41f18.svg",
+    "main.729f9efa.css.map": "/CV/static/css/main.729f9efa.css.map",
+    "main.4d44bc09.js.map": "/CV/static/js/main.4d44bc09.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d0d12ac.js",
-    "static/js/2.5bbb3990.chunk.js",
-    "static/css/main.2af745ac.chunk.css",
-    "static/js/main.29c46053.chunk.js"
+    "static/css/main.729f9efa.css",
+    "static/js/main.4d44bc09.js"
   ]
 }
