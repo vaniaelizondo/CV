@@ -50,19 +50,22 @@ const data = {
   ],
   experience: [
     {
-      title: "Developer",
-      company: "Kalypso",
+      title: "Senior Developer",
+      company: "Kalypso, a Rockwell Automation Business",
       date: "May 2021 - Present",
       logo: require("../images/kalypso.jpeg"),
       description: [
         {
-          line: "Windchill customization, build and deployment."
+          line: "Ansys Granta MI configuration, data migration and XSLT development."
+        },
+        {
+          line: "Windchill configuration, build and deployment."
         },
         {
           line: "Java development for Windchill's personalization and expansion."
         },
         {
-          line: "Creation of Python scripts for data organization."
+          line: "Python development for data manipulation."
         }
       ]
     },
@@ -259,6 +262,12 @@ const data = {
     }
   ],
   projects: [
+    {
+      title: "Linarense",
+      language: "PHP",
+      website: "https://cervezalinarense.com/",
+      description: "Full front end development and integration with Wordpress."
+    }, 
     {
       title: "Compiler",
       language: "Python",
