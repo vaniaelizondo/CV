@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.729f9efa.css",
-    "main.js": "/CV/static/js/main.4d44bc09.js",
+    "main.css": "/CV/static/css/main.3442a880.css",
+    "main.js": "/CV/static/js/main.5cb67cc7.js",
     "static/media/VaniaAlejandraElizondoMartinez.pdf": "/CV/static/media/VaniaAlejandraElizondoMartinez.484ac5126f4acf393ca8.pdf",
     "static/media/john_deere.png": "/CV/static/media/john_deere.20f3780d93597d33abec.png",
     "static/media/profile.jpg": "/CV/static/media/profile.90231f305e47d269119c.jpg",
@@ -14,11 +14,11 @@
     "static/media/phone_white.svg": "/CV/static/media/phone_white.3b342102daf71263fa4472080dc005fb.svg",
     "static/media/linkedin_white.svg": "/CV/static/media/linkedin_white.44cba807bbbbedf4eea2a988b864a6f6.svg",
     "static/media/mappin_white.svg": "/CV/static/media/mappin_white.61c83fc11f260013d16af9c3ceb41f18.svg",
-    "main.729f9efa.css.map": "/CV/static/css/main.729f9efa.css.map",
-    "main.4d44bc09.js.map": "/CV/static/js/main.4d44bc09.js.map"
+    "main.3442a880.css.map": "/CV/static/css/main.3442a880.css.map",
+    "main.5cb67cc7.js.map": "/CV/static/js/main.5cb67cc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.729f9efa.css",
-    "static/js/main.4d44bc09.js"
+    "static/css/main.3442a880.css",
+    "static/js/main.5cb67cc7.js"
   ]
 }
