@@ -1,7 +1,6 @@
 import React from "react";
 import { Progress } from "semantic-ui-react";
 import { HiCode } from 'react-icons/hi';
-import { FaRobot } from 'react-icons/fa';
 import { GrLanguage } from 'react-icons/gr';
 import { FcMultipleDevices } from 'react-icons/fc';
 

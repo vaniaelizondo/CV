@@ -26,12 +26,12 @@ function App() {
         bio={data.bio}
       />
       <Container fluid>
-          <Experience experience={data.experience} />
-          <Education education={data.education} />
-          <Skills skills={data.skills} />
-          <Projects projects={data.projects} />
-          <Courses courses={data.courses} />
-          <Extras extras={data.extras} />
+        <Experience experience={data.experience} />
+        <Education education={data.education} />
+        <Skills skills={data.skills} />
+        <Projects projects={data.projects} />
+        <Courses courses={data.courses} />
+        <Extras extras={data.extras} />
       </Container>
       <Footer
         name={data.name}
