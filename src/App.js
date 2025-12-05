@@ -28,9 +28,9 @@ function App() {
       <Container fluid>
           <Experience experience={data.experience} />
           <Education education={data.education} />
-          <Courses courses={data.courses} />
           <Skills skills={data.skills} />
           <Projects projects={data.projects} />
+          <Courses courses={data.courses} />
           <Extras extras={data.extras} />
       </Container>
       <Footer

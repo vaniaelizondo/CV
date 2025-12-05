@@ -1,7 +1,23 @@
 import React from "react";
-import { SiPhp, SiPython, SiCplusplus } from 'react-icons/si';
+import { SiPhp, SiPython, SiCplusplus, SiReact } from 'react-icons/si';
+import { IoLogoVue } from "react-icons/io5";
+import { VscCode } from "react-icons/vsc";
 
-const Projects = ({ projects }) => {
+const LANGUAGE_ICONS = {
+  PHP: SiPhp,
+  PYTHON: SiPython,
+  "C++": SiCplusplus,
+  REACT: SiReact,
+  VUE: IoLogoVue,
+};
+
+function getLanguageIcon(language) {
+  const key = String(language || "").trim().toUpperCase();
+  const Icon = LANGUAGE_ICONS[key] || VscCode;
+  return <Icon className="icon" />;
+}
+
+export default function Card({ projects }) {
   return (
     <div id="Projects">
       <h3>Projects</h3>
@@ -9,13 +25,7 @@ const Projects = ({ projects }) => {
           <div className="block" key={index}>
             <div className="TwoColumns">
               <div className="FirstColumn">
-                {project.language === "PHP" 
-                  ? <SiPhp className="icon" />
-                  : (project.language === "Python" 
-                    ? <SiPython className="icon" />
-                    : <SiCplusplus className="icon" />
-                  )
-                }
+                {getLanguageIcon(project.language)}
               </div>
               <div className="SecondColumn">
                 <h4>{project.title}</h4>
@@ -30,6 +40,4 @@ const Projects = ({ projects }) => {
         ))}
     </div>
   );
-};
-
-export default Projects;
+}

@@ -50,7 +50,7 @@ const data = {
   ],
   experience: [
     {
-      title: "Senior Developer",
+      title: "Technical Consultant",
       company: "Kalypso, a Rockwell Automation Business",
       date: "May 2021 - Present",
       logo: require("../images/kalypso.jpeg"),
@@ -59,13 +59,13 @@ const data = {
           line: "Ansys Granta MI configuration, data migration and XSLT development."
         },
         {
-          line: "Windchill configuration, build and deployment."
+          line: "Python development for data manipulation."
         },
         {
           line: "Java development for Windchill's personalization and expansion."
         },
         {
-          line: "Python development for data manipulation."
+          line: "Windchill configuration, build and deployment."
         }
       ]
     },
@@ -152,29 +152,17 @@ const data = {
       title: "Programming",
       tools: [
         {
-          name: "C++",
-          level: "80"
+          name: "Python",
+          level: "90"
         },
         {
-          name: "Python",
+          name: "C++",
           level: "75"
         },
         {
           name: "Java",
-          level: "65"
+          level: "60"
         },
-        {
-          name: "Arduino",
-          level: "65"
-        },
-        {
-          name: "VHDL",
-          level: "45"
-        },
-        {
-          name: "Assembly",
-          level: "50"
-        }
       ]
     },
     {
@@ -182,14 +170,26 @@ const data = {
       tools: [
         {
           name: "HTML",
-          level: "95"
-        },
-        {
-          name: "React.js",
-          level: "50"
+          level: "100"
         },
         {
           name: "JavaScript",
+          level: "90"
+        }, 
+        {
+          name: "CSS",
+          level: "80"
+        }, 
+        {
+          name: "React.js",
+          level: "70"
+        },
+        {
+          name: "Vue",
+          level: "80"
+        }, 
+        {
+          name: "PHP",
           level: "90"
         }, 
         {
@@ -211,35 +211,6 @@ const data = {
       ]
     },
     {
-      title: "Modelling and Simulation",
-      tools: [
-        {
-          name: "Matlab",
-          level: "60"
-        },
-        {
-          name: "R",
-          level: "40"
-        },
-        {
-          name: "Unity",
-          level: "30"
-        },
-        {
-          name: "LabView",
-          level: "45"
-        },
-        {
-          name: "LTSpice",
-          level: "50"
-        },
-        {
-          name: "Eagle",
-          level: "25"
-        }
-      ]
-    },
-    {
       title: "Languages",
       tools: [
         {
@@ -253,20 +224,34 @@ const data = {
         {
           name: "French",
           level: "50"
-        },
-        {
-          name: "German",
-          level: "25"
         }
       ]
     }
   ],
   projects: [
     {
+      title: "Model Portfolio",
+      language: "React",
+      website: "https://heloise-baland.onrender.com",
+      description: "Full front end development and UI/UX design."
+    }, 
+    {
+      title: "Massages Landing Page",
+      language: "React",
+      website: "https://massage-essentiel-et-relaxant.onrender.com",
+      description: "Full front end development and UI/UX design."
+    }, 
+    {
       title: "Linarense",
       language: "PHP",
       website: "https://cervezalinarense.com/",
       description: "Full front end development and integration with Wordpress."
+    }, 
+    {
+      title: "Arbatech",
+      language: "Vue",
+      website: "https://arbatech.io/",
+      description: "Full stack development and UI/UX design collaborator."
     }, 
     {
       title: "Compiler",

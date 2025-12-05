@@ -17,10 +17,7 @@ const Skills = ({ skills }) => {
                 ? <HiCode className="icon"/>
                 : (index === 1
                   ? <FcMultipleDevices className="icon" />
-                  : (index === 2
-                    ? <FaRobot className="icon" color="dimgray" />
-                    : <GrLanguage className="icon" color="black" />
-                  )
+                  : <GrLanguage className="icon" color="black" />
                 )
               }
             </div>

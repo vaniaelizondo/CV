@@ -7,7 +7,7 @@ import mappin_icon from "../images/mappin_white.svg";
 import github_icon from "../images/github_white.svg";
 import linkedin_icon from "../images/linkedin_white.svg";
 import download_icon from "../images/download_white.svg";
-import profile from "../images/profile.jpg";
+import profile from "../images/profile.jpeg";
 import CV from "../data/VaniaAlejandraElizondoMartinez.pdf";
 
 const Header = ({
@@ -31,9 +31,9 @@ const Header = ({
             <Nav.Link href="#Home">About</Nav.Link>
             <Nav.Link href="#Experience">Experience</Nav.Link>
             <Nav.Link href="#Education">Education</Nav.Link>
-            <Nav.Link href="#Courses">Courses</Nav.Link>
             <Nav.Link href="#Skills">Skills</Nav.Link>
             <Nav.Link href="#Projects">Projects</Nav.Link>
+            <Nav.Link href="#Courses">Courses</Nav.Link>
             <Nav.Link href="#Extras">Extras</Nav.Link>
           </Nav>
         </Navbar.Collapse>
